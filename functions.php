@@ -8,6 +8,19 @@ function title_theme_support()
 
 add_action('after_theme_setup', 'title_theme_support');
 
+function menus()
+{
+
+    $locations = array(
+        'primary' => "Desktop Primary Left Sidebar",
+        'footer' => "Footer Menu Items"
+    );
+
+    register_nav_menus($locations);
+}
+
+add_action('init', 'menus');
+
 
 
 function getStyles_register_style()
