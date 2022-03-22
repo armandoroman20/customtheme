@@ -43,8 +43,6 @@
 
                 ?>
 
-
-
                 <hr>
                 <ul class="social-list list-inline py-3 mx-auto">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
